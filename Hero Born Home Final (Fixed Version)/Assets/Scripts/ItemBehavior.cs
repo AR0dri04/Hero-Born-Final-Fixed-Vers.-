@@ -8,6 +8,7 @@ public class ItemBehavior : MonoBehaviour
 
     void Start()
     {
+        //sets game manager in charge of the health item
         GameManager = GameObject.Find("Game Manager").GetComponent<GameBehavior>();
     }
 

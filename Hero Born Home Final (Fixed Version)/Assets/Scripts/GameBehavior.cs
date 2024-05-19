@@ -8,8 +8,9 @@ using UnityEngine.SceneManagement;
 
 public class GameBehavior : MonoBehaviour
 {
+    //Establishes max number of items in game
     public int MaxItems = 4;
-
+    //creates variables for the TMP Text GUI used
     public TMP_Text HealthText;
     public TMP_Text ItemText;
     public TMP_Text ProgressText;

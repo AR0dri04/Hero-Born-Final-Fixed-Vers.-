@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeLevel : MonoBehaviour
 {
+    //references the build index in unit through a variable
     int buildindex;
 
     // Start is called before the first frame update
@@ -21,6 +22,7 @@ public class ChangeLevel : MonoBehaviour
     }
     void OnTriggerEnter(Collider myCollision)
     {
+        //Allows the game to automatically load the next scene once the required conditions are met.
         SceneManager.LoadScene(buildindex + 1);
         
     }

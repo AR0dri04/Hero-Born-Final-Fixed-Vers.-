@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
 {
+    //Method checks to see whether player is within range, if true, the following text appears in console
    void OnTriggerEnter(Collider other)
    {
         if(other.name == "Player")
