@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerBehavior : MonoBehaviour
 {
     // Start is called before the first frame update
-    //1 (Idk what the 1 means but the textbook told me to add it)
+    //1 Section to define and Initialize some variables.
     public float MoveSpeed = 10f;
     public float RotateSpeed = 75f;
 
