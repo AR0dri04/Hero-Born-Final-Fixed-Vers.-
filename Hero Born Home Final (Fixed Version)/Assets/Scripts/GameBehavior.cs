@@ -4,6 +4,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
+using UnityEngine.SceneManagement;
+
 public class GameBehavior : MonoBehaviour
 {
     public int MaxItems = 4;
@@ -34,6 +36,7 @@ public class GameBehavior : MonoBehaviour
             {
                 ProgressText.text = "You've found all the items!";
                 WinButton.gameObject.SetActive(true);
+                
             }
             else
             {
@@ -42,6 +45,7 @@ public class GameBehavior : MonoBehaviour
             }
         }
     }
+ 
     // 4
     private int _playerHP = 10;
     public int HP

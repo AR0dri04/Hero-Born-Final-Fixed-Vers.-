@@ -13,7 +13,7 @@ public class EnemyBehavior : MonoBehaviour
             Debug.Log("This first level will serve as a hub to get you familiar with the controls.");
             Debug.Log("You can use the W, A, S, and D keys to move and turn your camera around!");
             Debug.Log("Pressing the Space bar will allow you to jump! You have no limit to how many times you can jump so feel free to bounce around!");
-            Debug.Log("To access the first level, step on the goal pad next to me!");
+            Debug.Log("To access the first level, collect the health pick up and step on the goal pad next to me!");
         }
    }
 
